@@ -1,0 +1,62 @@
+# The URL the site will be built for
+base_url = "rustic.games"
+
+# Used in RSS by default
+title = "Rustic Games"
+description = "Developing an open-source game about space engineering and exploration."
+
+# the default language, used in RSS and coming i18n
+default_language = "en"
+
+# Highlight all code blocks found
+highlight_code = false
+
+# Which theme to use for the code highlighting.
+# See below for list of accepted values
+highlight_theme = "gruvbox-light"
+
+# Whether to generate a RSS feed automatically
+generate_rss = true
+
+# The number of articles to include in the RSS feed
+rss_limit = 20
+
+# The taxonomies to be rendered for that site and their configuration
+# Example:
+#     taxonomies = [
+#       {name = "tags", rss = true}, # each tag will have its own RSS feed
+#       {name = "categories", paginate_by = 5},  # 5 items per page for a term
+#       {name = "authors"}, # Basic definition: no RSS or pagination
+#     ]
+#
+taxonomies = []
+
+# Whether to compile the Sass files found in the `sass` directory
+compile_sass = true
+
+# Whether to build a search index out of the pages and section
+# content for the `default_language`
+build_search_index = false
+
+# Go through every links in all content and check if the links are valid
+# If a link is invalid (404, 500, etc), the build will error.
+# Link checking can take a very long time if you have many links so this should
+# only enabled once in a while to catch any dead links.
+check_external_links = true
+
+# A list of glob patterns specifying asset files to ignore when
+# processing the content directory.
+# Defaults to none, which means all asset files are copied over to the public folder.
+# Example:
+#     ignored_content = ["*.{graphml,xlsx}", "temp.*"]
+ignored_content = []
+
+# A list of directories to search for additional `.sublime-syntax` files in.
+extra_syntaxes = []
+
+# Optional translation object. The key if present should be a language code
+[translations]
+
+# You can put any kind of data in there and it
+# will be accessible in all templates
+[extra]
