@@ -11,3 +11,7 @@ GUTENBERG_VERSION = "0.4.2"
 # `$DEPLOY_PRIME_URL`.
 [context.deploy-preview]
 command = "gutenberg build --base-url $DEPLOY_PRIME_URL"
+
+[[redirects]]
+from = "https://rustic-games.netlify.com/*"
+to = "https://rustic.games/:splat 301!"
