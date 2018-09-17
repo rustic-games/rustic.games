@@ -1,10 +1,10 @@
 .scroll-indicator {
 	position: absolute;
-	transform:translateX(-50%) rotate(90deg);
+	transform:translateX(-50%) rotate(135deg);
 	-webkit-animation: bounce 2s infinite;
 	animation: bounce 2s infinite;
 
-	@extend .is-size-5;
+	@extend .is-size-4;
 	@extend .has-text-grey-lighter;
 	opacity: 0.5;
 }
