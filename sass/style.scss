@@ -31,14 +31,14 @@ section.hero {
   }
 
   #header {
-    margin-top: 50%;
-    margin-bottom: 30%;
+    margin-top: 30%;
+    margin-bottom: 20%;
 
     .title {
       font-family: 'Dosis', sans-serif;
       color: whitesmoke;
       line-height: 0.8em;
-      padding-bottom: 2rem;
+      padding-bottom: 4rem;
 
       @extend .has-text-weight-bold;
       @extend .is-size-1-desktop;
