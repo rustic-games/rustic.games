@@ -220,3 +220,34 @@ section.timeline {
     }
   }
 }
+
+// Fontawesome
+// see: https://icomoon.io/app
+// see: http://fontello.com
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url("icons.woff") format("woff");
+}
+
+.fas, .fa {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.fa-envelope:before {
+  content: "\e901";
+}
+
+.fa-rocket:before {
+  content: "\e900";
+}
