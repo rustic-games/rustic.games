@@ -13,6 +13,7 @@ $size-7: 0.75rem;
 @import "scroll_indicator.scss";
 
 body {
+  background-color: #171b1e;
   font-family: 'Merriweather', sans-serif;
   @include background-2x( 'images/background', 'jpg', 1920px, 2880px, center 80%, no-repeat );
 }
