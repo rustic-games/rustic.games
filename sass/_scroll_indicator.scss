@@ -1,0 +1,22 @@
+.scroll-indicator {
+	position: absolute;
+	transform:translateX(-50%) rotate(90deg);
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+
+	@extend .is-size-5;
+	@extend .has-text-grey-light;
+	opacity: 0.3;
+}
+
+@-webkit-keyframes bounce {
+	 0% { top: 15%; }
+	 50%   { top: 20%; }
+	 100% { top: 15%; }
+}
+
+@keyframes bounce {
+	 0% { top: 15%; }
+	 50%   { top: 20%; }
+	 100% { top: 15%; }
+}
