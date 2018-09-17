@@ -75,7 +75,7 @@ section.timeline {
   .heading {
     font-family: 'Fira Sans', sans-serif;
     text-transform: none;
-    @extend .has-text-white-ter;
+    @extend .has-text-white;
     @extend .is-size-5-mobile;
     @extend .is-size-3-tablet;
     @extend .is-size-3-desktop;
@@ -90,14 +90,14 @@ section.timeline {
     text-shadow: 1px 1px 1px black;
     line-height:1.9em;
 
-    @extend .has-text-grey;
+    @extend .has-text-grey-light;
     @extend .is-size-7-mobile;
     @extend .is-size-6-tablet;
     @extend .is-size-6-desktop;
 
     em {
       font-style: normal;
-      @extend .has-text-grey-light;
+      @extend .has-text-grey-lighter;
       @extend .has-text-weight-normal;
     }
   }

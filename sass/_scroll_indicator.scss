@@ -5,8 +5,8 @@
 	animation: bounce 2s infinite;
 
 	@extend .is-size-5;
-	@extend .has-text-grey-light;
-	opacity: 0.3;
+	@extend .has-text-grey-lighter;
+	opacity: 0.5;
 }
 
 @-webkit-keyframes bounce {
