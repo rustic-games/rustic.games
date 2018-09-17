@@ -14,125 +14,48 @@
 </head>
 
 <body>
-  <div id="header">
-    <div id="title">Rusty<br>Rockets</div>
 
-    <p id="payoff" class="has-text-grey-light">
-      An open-source game about
-      <strong class="has-text-white-ter">space engineering</strong>
-      and
-      <strong class="has-text-white-ter">exploration</strong>.</p>
-  </div>
-
-  <div id="newsletter">
-    <form id="mc-embedded-subscribe-form" novalidate name="mc-embedded-subscribe-form" action="https://games.us19.list-manage.com/subscribe/post?u=39bb7914acd917b0df2682094&amp;id=95fd99a145"
-      method="post">
-      <div class="field has-addons">
-        <div class="control has-icons-left">
-          <input class="input has-background-grey-lighter" name="EMAIL" id="mce-EMAIL" type="email" placeholder="stay up-to date">
-          <span class="icon is-medium is-left">
-            <i class="fas fa-envelope"></i>
-          </span>
-        </div>
-        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-          <input type="text" name="b_39bb7914acd917b0df2682094_95fd99a145" tabindex="-1" value="">
-        </div>
-        <div class="control">
-          <button id="mc-embedded-subscribe" class="button is-info">notify me</button>
-        </div>
-      </div>
-    </form>
-  </div>
-
-  <div id="timeline">
-    <div id="timeline-inner">
-      <div class="entries">
-
-        <div class="entry">
-          <div class="title has-text-grey-light">mid 2018</div>
-          <div class="body">
-            <p class="has-text-grey has-text-weight-light">
-              Define goals of the project, make
-              <em class="has-text-grey-light">initial estimates</em>,
-              gather feedback, begin writing global and technical
-              <em class="has-text-grey-light">design document</em>.
-              Read up on Newtonian physics, mathematics, and the Rust programming language.</p>
+  <!-- title + subtitle + newsletter, full screen height  -->
+  <section class="hero is-fullheight">
+    <div class="hero-head">
+      <div class="columns is-centered">
+        <div class="page-content column is-one-third">
+          <div id="header">
+            <h1 class="title">
+              Rusty
+              <br />Rockets
+            </h1>
+            <h2 class="subtitle">
+              An open-source game about <strong>space engineering</strong>
+              and <strong>exploration</strong>.
+            </h2>
           </div>
-        </div>
 
-        <div class="entry">
-          <div class="title has-text-white">late 2018</div>
-          <div class="body">
-            <p class="has-text-white-ter has-text-weight-light">
-              Begin work on <em class="has-text-weight-normal">early prototype</em>.
-              Continue <em class="has-text-weight-normal">research</em>,
-              finish design documents and make preparations to
-              support an <em class="has-text-weight-normal">active open-source community</em>.
-            </p>
+          <div id="newsletter">
+            <form id="mc-embedded-subscribe-form" novalidate name="mc-embedded-subscribe-form" action="https://games.us19.list-manage.com/subscribe/post?u=39bb7914acd917b0df2682094&amp;id=95fd99a145"
+              method="post">
+              <div class="field has-addons">
+                <div id="email-field" class="control has-icons-left">
+                  <input class="input has-text-info" name="EMAIL" id="mce-EMAIL" type="email" placeholder="stay up-to date">
+                  <span class="icon is-medium is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                  <input type="text" name="b_39bb7914acd917b0df2682094_95fd99a145" tabindex="-1" value="">
+                </div>
+                <div class="control">
+                  <button id="mc-embedded-subscribe" class="button is-info">notify me</button>
+                </div>
+              </div>
+            </form>
           </div>
-        </div>
 
-        <div class="entry">
-          <div class="title big has-text-grey-light">mid 2019</div>
-          <div class="body">
-            <p class="has-text-grey has-text-weight-light">
-              <em class="has-text-grey-light">Open source</em> all code and resources.
-              Continue development in the open and <em class="has-text-grey-light">collaborate</em>
-              with anyone who wants to contribute. Do some <em class="has-text-grey-light">early promoting</em>
-              to gauge interest.
-            </p>
-          </div>
         </div>
-
-        <div class="entry">
-          <div class="title has-text-grey-light">late 2019</div>
-          <div class="body">
-            <p class="has-text-grey has-text-weight-light">
-              Release early <em class="has-text-grey-light">gameplay and visual preview</em>.
-              Increase promotional efforts. Prepare financial support campaign. Continue development.
-            </p>
-          </div>
-        </div>
-
-        <div class="entry">
-          <div class="title big has-text-grey-light">early 2020</div>
-          <div class="body">
-            <p class="has-text-grey has-text-weight-light">
-              Launch <em class="has-text-grey-light">financial support campaign</em>
-              to fund full-time development for at least two more years.
-            </p>
-          </div>
-        </div>
-
-        <div class="entry">
-          <div class="title big has-text-grey-light">2021 or later</div>
-          <div class="body">
-            <p class="has-text-grey has-text-weight-light">
-              Depending on available development time in 2020, launch
-              <em class="has-text-grey-light">early access</em>
-              game to community sometime in 2021, or the year after.
-            </p>
-          </div>
-        </div>
-
-        <div class="entry">
-          <div class="title has-text-grey-light">into the future</div>
-          <div class="body">
-            <p class="has-text-grey has-text-weight-light">
-              The goal of this project is to support a
-              <em class="has-text-grey-light">multi-decade game community</em>.
-              As long as I can support my family, this game will
-              become my day job, and the game will
-              <em class="has-text-grey-light">continue to be improved</em>,
-              while remaining <em class="has-text-grey-light">free for everyone</em>
-              to enjoy.
-            </p>
-          </div>
-        </div>
-
       </div>
     </div>
-  </div>
+  </section>
+
 </body>
 
 </html>
