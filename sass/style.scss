@@ -19,11 +19,17 @@ body {
 }
 
 .page-content {
-  margin: 0 20px;
   max-width: 420px;
 }
 
 section.hero {
+
+  // https://github.com/jgthms/bulma/issues/766
+  .columns {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   #header {
     margin-top: 50%;
     margin-bottom: 30%;
