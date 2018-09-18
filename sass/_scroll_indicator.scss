@@ -1,6 +1,5 @@
 .scroll-indicator {
 	position: absolute;
-	transform:translateX(-50%) rotate(135deg);
 	-webkit-animation: bounce 2s infinite;
 	animation: bounce 2s infinite;
 
@@ -10,13 +9,11 @@
 }
 
 @-webkit-keyframes bounce {
-	 0% { top: 15%; }
-	 50%   { top: 20%; }
-	 100% { top: 15%; }
+  0%, 100% { -webkit-transform: translate(-50%, 0)    rotate(135deg); }
+  50% 		 { -webkit-transform: translate(-50%, 10px) rotate(135deg); }
 }
 
 @keyframes bounce {
-	 0% { top: 15%; }
-	 50%   { top: 20%; }
-	 100% { top: 15%; }
+  0%, 100% { transform: translate(-50%, 0)    rotate(135deg); }
+  50% 		 { transform: translate(-50%, 10px) rotate(135deg); }
 }
