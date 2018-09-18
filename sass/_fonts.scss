@@ -1,0 +1,51 @@
+// see: https://google-webfonts-helper.herokuapp.com
+
+/* dosis-regular - latin */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'),
+       url('/fonts/dosis-v7-latin-regular.woff2') format('woff2'),
+       url('/fonts/dosis-v7-latin-regular.woff') format('woff');
+}
+
+/* fira-sans-300 - latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'),
+       url('/fonts/fira-sans-v8-latin-300.woff2') format('woff2'),
+       url('/fonts/fira-sans-v8-latin-300.woff') format('woff');
+}
+
+/* merriweather-300 - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Merriweather Light'), local('Merriweather-Light'),
+       url('/fonts/merriweather-v19-latin-300.woff2') format('woff2'),
+       url('/fonts/merriweather-v19-latin-300.woff') format('woff');
+}
+
+/* merriweather-regular - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'),
+       url('/fonts/merriweather-v19-latin-regular.woff2') format('woff2'),
+       url('/fonts/merriweather-v19-latin-regular.woff') format('woff');
+}
+
+/* merriweather-700 - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Bold'), local('Merriweather-Bold'),
+       url('/fonts/merriweather-v19-latin-700.woff2') format('woff2'),
+       url('/fonts/merriweather-v19-latin-700.woff') format('woff');
+}
