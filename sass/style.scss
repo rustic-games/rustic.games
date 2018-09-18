@@ -39,7 +39,6 @@ section.hero {
       font-family: 'Dosis', sans-serif;
       color: whitesmoke;
       line-height: 0.8em;
-      padding-bottom: 4rem;
 
       @extend .has-text-weight-bold;
       @extend .is-size-1-desktop;
@@ -47,6 +46,7 @@ section.hero {
     }
 
     .subtitle {
+      margin-top: 15%;
       font-family: 'Merriweather', sans-serif;
       line-height: 1.5em;
 
@@ -58,6 +58,10 @@ section.hero {
         @extend .has-text-white-ter;
       }
     }
+  }
+
+  #newsletter {
+    margin-top: 30%;
   }
 
   .hero-foot {
