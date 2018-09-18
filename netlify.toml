@@ -23,3 +23,8 @@ from = "https://rustic-games.netlify.com/*"
 to = "https://rustic.games/:splat"
 status = 301
 force = true
+
+[[redirects]]
+from = "/*"
+to = "/"
+status = 200
