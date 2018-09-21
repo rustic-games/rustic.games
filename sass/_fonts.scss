@@ -4,7 +4,7 @@
 @font-face {
   font-family: 'Dosis';
   font-style: normal;
-  font-display: auto;
+  font-display: block;
   font-weight: 400;
   src: local('Dosis Regular'), local('Dosis-Regular'),
        url('/fonts/dosis-v7-latin-regular.woff2') format('woff2'),
@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
-  font-display: auto;
+  font-display: block;
   font-weight: 300;
   src: local('Fira Sans Light'), local('FiraSans-Light'),
        url('/fonts/fira-sans-v8-latin-300.woff2') format('woff2'),
@@ -26,7 +26,7 @@
 @font-face {
   font-family: 'Merriweather';
   font-style: normal;
-  font-display: auto;
+  font-display: block;
   font-weight: 300;
   src: local('Merriweather Light'), local('Merriweather-Light'),
        url('/fonts/merriweather-v19-latin-300.woff2') format('woff2'),
@@ -37,7 +37,7 @@
 @font-face {
   font-family: 'Merriweather';
   font-style: normal;
-  font-display: auto;
+  font-display: block;
   font-weight: 400;
   src: local('Merriweather Regular'), local('Merriweather-Regular'),
        url('/fonts/merriweather-v19-latin-regular.woff2') format('woff2'),
@@ -48,7 +48,7 @@
 @font-face {
   font-family: 'Merriweather';
   font-style: normal;
-  font-display: auto;
+  font-display: block;
   font-weight: 700;
   src: local('Merriweather Bold'), local('Merriweather-Bold'),
        url('/fonts/merriweather-v19-latin-700.woff2') format('woff2'),
@@ -61,7 +61,7 @@
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
-  font-display: auto;
+  font-display: block;
   font-weight: 900;
   src: url("icons.woff") format("woff");
 }
