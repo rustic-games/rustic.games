@@ -45,6 +45,10 @@ section.hero {
       @extend .is-size-2-touch;
     }
 
+    img.title {
+      width: 100%;
+    }
+
     .subtitle {
       margin-top: 15%;
       font-family: 'Merriweather', sans-serif;
